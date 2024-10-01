@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #d0cccc;
     margin: 0;
     padding: 0;
 }
@@ -43,4 +43,11 @@ button:hover {
     padding: 10px;
     background-color: #e9ecef;
     border-radius: 5px;
+}
+
+@media (max-width:800px){
+    #quiz-container {
+        width: auto;
+        margin: 10px;
+    }
 }
