@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz: Gestão de Competências</title>
+    <link rel="stylesheet" href="style.css"> <!-- Adicione seu arquivo de estilo aqui -->
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Quiz: Gestão de Competências</h1>
+        <form id="quiz-form">
+            <!-- Pergunta 1 -->
+            <div class="question">
+                <h2>Pergunta 1:</h2>
+                <p>Na fábula "A Formiga e a Cigarra", qual é a principal lição que podemos aplicar no ambiente de trabalho?</p>
+                <label><input type="radio" name="q1" value="a"> A importância de aproveitar o tempo livre ao máximo</label><br>
+                <label><input type="radio" name="q1" value="b"> A necessidade de estar preparado para possíveis desafios</label><br>
+                <label><input type="radio" name="q1" value="c"> A vantagem de trabalhar sozinho</label><br>
+                <label><input type="radio" name="q1" value="d"> A importância de competir com os colegas</label>
+            </div>
+            
+            <!-- Pergunta 2 -->
+            <div class="question">
+                <h2>Pergunta 2:</h2>
+                <p>Como a história da formiga e da cigarra se relaciona com o treinamento e desenvolvimento no trabalho?</p>
+                <label><input type="radio" name="q2" value="a"> Ensina que o treinamento deve ser longo e cansativo</label><br>
+                <label><input type="radio" name="q2" value="b"> Mostra que o treinamento é desnecessário, pois os problemas raramente acontecem</label><br>
+                <label><input type="radio" name="q2" value="c"> Ressalta a importância de preparar os funcionários para resolver problemas futuros</label><br>
+                <label><input type="radio" name="q2" value="d"> Ensina que os funcionários devem apenas cumprir suas funções básicas</label>
+            </div>
+
+            <!-- Pergunta 3 -->
+            <div class="question">
+                <h2>Pergunta 3:</h2>
+                <p>Durante um processo de desenvolvimento de funcionários, o que pode acontecer se um funcionário não receber o treinamento adequado para resolver problemas?</p>
+                <label><input type="radio" name="q3" value="a"> O funcionário encontrará soluções por conta própria sem dificuldades</label><br>
+                <label><input type="radio" name="q3" value="b"> Pode haver prejuízos por falta de conhecimento em situações críticas</label><br>
+                <label><input type="radio" name="q3" value="c"> A empresa não enfrentará dificuldades</label><br>
+                <label><input type="radio" name="q3" value="d"> O funcionário se tornará mais independente</label>
+            </div>
+
+            <!-- Pergunta 4 -->
+            <div class="question">
+                <h2>Pergunta 4:</h2>
+                <p>Qual é a importância de incluir a resolução de problemas no treinamento dos funcionários?</p>
+                <label><input type="radio" name="q4" value="a"> Apenas para ocupar o tempo de treinamento</label><br>
+                <label><input type="radio" name="q4" value="b"> Para garantir que eles não precisem pedir ajuda</label><br>
+                <label><input type="radio" name="q4" value="c"> Para que possam lidar com desafios e evitar prejuízos</label><br>
+                <label><input type="radio" name="q4" value="d"> Para que todos tenham o mesmo nível de conhecimento</label>
+            </div>
+
+            <!-- Pergunta 5 -->
+            <div class="question">
+                <h2>Pergunta 5:</h2>
+                <p>No contexto da fábula, se um funcionário for comparado à formiga, o que isso representaria em termos de treinamento e desenvolvimento?</p>
+                <label><input type="radio" name="q5" value="a"> O funcionário relaxa e aproveita os momentos tranquilos</label><br>
+                <label><input type="radio" name="q5" value="b"> O funcionário não se prepara para as dificuldades</label><br>
+                <label><input type="radio" name="q5" value="c"> O funcionário está sempre se preparando e adquirindo novas habilidades</label><br>
+                <label><input type="radio" name="q5" value="d"> O funcionário depende de seus colegas para realizar o trabalho</label>
+            </div>
+
+            <!-- Pergunta 6 (Nova pergunta) -->
+            <div class="question">
+                <h2>Pergunta 6:</h2>
+                <p>Como você se classificaria em termos de resolução de problemas no trabalho?</p>
+                <label><input type="radio" name="q6" value="a"> Eu prefiro evitar problemas e focar no trabalho de rotina</label><br>
+                <label><input type="radio" name="q6" value="b"> Eu enfrento problemas quando aparecem, mas prefiro que outros tomem a frente</label><br>
+                <label><input type="radio" name="q6" value="c"> Eu busco ativamente resolver problemas e tomar iniciativas</label><br>
+                <label><input type="radio" name="q6" value="d"> Eu lidero e encorajo os outros a resolver problemas junto comigo</label>
+            </div>
+
+            <button type="button" onclick="calculateScore()">Ver Resultados</button>
+        </form>
+        <div id="result-container"></div>
+    </div>
+
+    <script src="script.js"></script> <!-- Adicione o script aqui -->
+</body>
+</html>
